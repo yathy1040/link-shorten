@@ -2,10 +2,6 @@
 
 This app shortens links into bit.ly links that can be used as shortened links and thus will save space and make links.
 
-## Screenshots
-
-LLLLLLLLLLLLLLLLL
-
 ## Tech/Frameworks used
 
 - React
@@ -40,6 +36,7 @@ $ npm start
 ## Credits
 
 DevProjects link: https://www.codementor.io/projects/web/link-shortener-website-brqjanf6zq
+
 bit.ly API documentation: https://dev.bitly.com/api-reference#createBitlink
 
 ## License
