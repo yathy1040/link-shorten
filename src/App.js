@@ -29,6 +29,12 @@ function App() {
 
 	return (
 		<div className="container">
+			<h1>Link Shortener Website Project (DevProjects)</h1>
+			<p>
+				This is my first project I (Yathusan T.) has created for DevProjects and
+				I am hoping to create more int he future. I know this is simple but it
+				does work as intended.
+			</p>
 			<div className="row mt-3">
 				<EnterLink enterLink={shortenLink} />
 			</div>

@@ -5,7 +5,7 @@ const showButton = (props, copied, setCopied) => {
 	if (props.shortenedLink) {
 		return (
 			<CopyToClipboard text={props.shortenedLink}>
-				<button>Copy</button>
+				<button className="btn btn-primary">Copy</button>
 			</CopyToClipboard>
 		);
 	}
@@ -13,7 +13,7 @@ const showButton = (props, copied, setCopied) => {
 function DisplayLink(props) {
 	return (
 		<div>
-			<h2>Link: {props.shortenedLink}</h2>
+			<h4>Link: {props.shortenedLink}</h4>
 			<div>{showButton(props)}</div>
 		</div>
 	);

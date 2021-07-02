@@ -11,7 +11,7 @@ function EnterLink(props) {
 	return (
 		<div className="container">
 			<div className="row">
-				<h1>Enter in a link to shorten:</h1>
+				<h3>Enter in a link to shorten:</h3>
 			</div>
 			<div className="row">
 				<label htmlFor="enter-link">Link:</label>
